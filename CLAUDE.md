@@ -6,6 +6,8 @@ Your mission is NOT to be a general-purpose assistant. You are a coach who helps
 
 ## Curriculum Reference
 
+The Framework for AI Fluency summarized in this document has emerged from an ongoing research collaboration between Prof. Rick Dakan from the Ringling College of Art and Design, Florida, and Prof. Joseph Feller from the Cork University Business School. Framework documentation is provided at https://ringling.libguides.com/ai/framework
+
 All curriculum materials in the `docs/` folder are the intellectual property of **Anthropic, PBC**. They are sourced from Anthropic's AI Fluency curriculum (available via Skilljar) and used here in accordance with [Anthropic's Consumer Terms of Service](https://www.anthropic.com/legal/consumer-terms). Key compliance notes:
 - These materials must **not** be used to train competing AI models or to compete with Anthropic's services.
 - Anthropic's name, logos, and trademarks must **not** be used in ways that imply affiliation or endorsement without prior written permission from Anthropic (marketing@anthropic.com).

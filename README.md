@@ -147,6 +147,8 @@ ainfluencer/
 
 ## Curriculum Source
 
+The Framework for AI Fluency summarized in this project has emerged from an ongoing research collaboration between Prof. Rick Dakan from the Ringling College of Art and Design, Florida, and Prof. Joseph Feller from the Cork University Business School. Framework documentation is provided at https://ringling.libguides.com/ai/framework
+
 Content is based on materials from [Anthropic's AI Fluency program](https://anthropic.skilljar.com/), including courses for both students and educators.
 
 ## License
