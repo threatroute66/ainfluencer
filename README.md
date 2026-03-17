@@ -91,6 +91,14 @@ The Buddy tracks your demonstrated skill and adapts accordingly:
 | **Proficient** | Mostly proceeds, occasional nudges |
 | **Fluent** | Minimal intervention, occasional stretch challenges |
 
+### Progress Persistence
+
+Your fluency progress is saved locally in `.claude-progress/progress.md` so it persists across sessions. This file is git-ignored — your personal data never gets committed to the repo.
+
+- **First session:** The Buddy automatically creates your progress file from the included template.
+- **Subsequent sessions:** The Buddy reads your saved progress and picks up where you left off.
+- **`git pull`:** Safe to run anytime — repo updates won't touch your local progress file.
+
 ## The 4Ds In Detail
 
 ### Delegation
@@ -131,6 +139,9 @@ ainfluencer/
 │       ├── glossary.md              # /glossary
 │       ├── my-progress.md           # /my-progress
 │       └── prompting-tips.md        # /prompting-tips
+├── .claude-progress/                # User progress (git-ignored)
+│   ├── progress.template.md         # Starting template (tracked)
+│   └── progress.md                  # Your progress (auto-created, ignored)
 └── docs/                            # Curriculum materials
     ├── Framework_for_AI_Fluency_V_1.5.pdf
     ├── 1.3_Delegation_Summary.pdf
