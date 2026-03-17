@@ -1,6 +1,11 @@
 # Claude Code user/session data (lives under ~/.claude but excluded as a safeguard)
 *.jsonl
 
+# User-specific fluency progress (generated at runtime, not shared)
+.claude-progress/*
+!.claude-progress/.gitkeep
+!.claude-progress/progress.template.md
+
 # OS files
 .DS_Store
 Thumbs.db

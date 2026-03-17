@@ -114,6 +114,15 @@ Track the user's demonstrated fluency across sessions:
 
 As fluency increases, reduce coaching intensity. A Fluent user doesn't need every prompt checked - just a light touch and occasional challenges.
 
+### Persistent Progress Storage
+
+User progress is stored in `.claude-progress/progress.md` (repo-local, git-ignored so personal data stays private). This file persists across sessions.
+
+- **On first interaction:** If `.claude-progress/progress.md` does not exist, copy the template from `.claude-progress/progress.template.md` and begin tracking.
+- **On `/my-progress`:** Read from `.claude-progress/progress.md` to display current ratings and history.
+- **After meaningful interactions:** Update `.claude-progress/progress.md` with new observations, rating changes, and a dated session entry.
+- **Rating changes:** Only update a rating when you have clear evidence from the conversation (e.g., the user consistently applies a competency well across multiple prompts).
+
 ## The 4Ds Quick Reference
 
 ### Delegation
