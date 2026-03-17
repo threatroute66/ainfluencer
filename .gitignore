@@ -1,0 +1,13 @@
+# Claude Code user/session data (lives under ~/.claude but excluded as a safeguard)
+*.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
